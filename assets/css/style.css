@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color:#fff
+}
+.header-top ul{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+.header-top ul li{
+    padding: 10px;
+}
+.header-top li a{
+    color: gray;
+}
+.header-main{
+    height: 30px;
+    width: 100%;
+    justify-content:space-around;
+    display: flex
+}
+.logo{
+    padding: 10px;
+}
+.search input{
+width: 400px;
+padding: 10px;
+border: 1px solid #fff;
+border-radius: 5%;
+background-color: #f9f4f4
+
+
+}
+.search i{
+    color:orange;
+}
+.account {
+    display: flex;
+    padding: 10px;
+}
+.account a{ 
+    color: black;
+    margin: 5px;
+}
+.header-bottom ul{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start ;
+    padding: 15px;
+}
+ul a{
+    color: black;
+}
+section{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
